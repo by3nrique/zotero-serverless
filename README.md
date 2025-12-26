@@ -62,7 +62,6 @@ This solution deploys the following Azure resources:
 
 *   **Azure Container App**: Hosts the WebDAV server using the public image `ghcr.io/by3nrique/azure-zotero-serverless:latest`.
 *   **Azure Storage Account**: Provides the file share (`zotero-data`) mounted to the container.
-*   **Log Analytics Workspace**: Collects system logs for troubleshooting.
 
 ## Advanced Configuration
 
